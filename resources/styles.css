@@ -1,0 +1,327 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1.06em;
+}
+a{
+  font-size:1em;
+}
+.active{
+  background-color: #4D1F25; 
+}
+#menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #652830;
+  line-height: 50px;
+  border-bottom: #000 3px solid;
+  margin-bottom: 15px;
+}
+#menu ul li {
+  float: left;
+}
+#menu ul li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  color: #d7bda4;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menu ul li a:hover:not(.active){
+  background-color: #B34756;
+}
+#menu ul li.dropdown {
+  display: inline-block;
+}
+.dropbtn:hover{
+  background-color: #E8D5D3;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  height: 200px;
+}
+.dropdown-content ul li a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 0.75em;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#viki, #koc{
+  height: 400px;
+  width: auto;
+}
+#viki{
+    position: absolute;
+    margin-top: 90px;
+    right: 110px;
+}
+#net{
+  height: 350px;
+  width: auto;
+  position: absolute;
+  right: 110px;
+}
+#koc{
+  position: absolute;
+  margin-top: 155px;
+  right: 110px;
+}
+.Oq{
+  background-color: #F7ECE6;
+  width: 500px;
+  margin: auto;
+  border: #D1C7C2 solid 2px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+}
+h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+#site1{
+  width: 500px;
+  margin-top: 76px;
+  background-color: #000;
+  color: #fff;
+  margin-left: 110px;
+  padding:20px;
+  text-align: justify;
+  border-radius: 12px;
+}
+#site2{
+  width: 500px;
+  margin-top: 220px;
+  background-color: #0F9BF2;
+  color: #fff;
+  margin-left: 110px;
+  padding:20px;
+  text-align: justify;
+  border-radius: 12px;
+}
+#site3{
+  width: 500px;
+  margin-top: 270px;
+  background-color: #363240;
+  color: #fff;
+  margin-left: 110px;
+  padding:20px;
+  text-align: justify;
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+#link{
+  background-color: #F7ECE6;
+  border-radius: 12px;
+  border: 2px solid #D1C7C2;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#link ul{
+  list-style: none;
+}
+#link li a{
+  color: #342AEB;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#link li a:hover{
+  font-size: 1.5em;
+}
+#img1{
+  width: 100%;
+  margin-bottom: 20px;
+}
+#img2{
+  width: 750px;
+  margin-bottom: 20px;
+}
+#sino1{
+  width: 750px;
+  background-color: #8F9BD0;
+  border-radius: 15px;
+  border: #9B849E 2px solid;
+  color: #000;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+#sino2{
+  width: 750px;
+  background-color: #E6E1D5;
+  border-radius: 15px;
+  border: #A7B6C5 2px solid;
+  color: #000;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+#sino3{
+  width: 750px;
+  background-color: #DEB299;
+  border-radius: 15px;
+  border: #9D989E 2px solid;
+  color: #000;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+} 
+#Suzy p{
+  background-color: #AC555A;
+  border: #874D43 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#ator{
+  height:350px;
+  position: absolute;
+  right: 110px
+}
+p a{
+  color: #342AEB;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#Lee_Jong_Suk p{
+  background-color: #E1DAD8;
+  border: #191118 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 45px;
+}
+#Jung_Hae_In p{
+  background-color: #CEC1A1;
+  border:#8AADA6 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+#Shin_Jae_Ha p{
+  background-color: #D6D2CD;
+  border:#8E7778 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 75px;
+}
+#Kim_Yoo_Jung p{
+  background-color: #E4B3AD;
+  border:#382721 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#Yoon_Kyun_Sang p{
+  background-color: #BFAAB2;
+  border:#241E26 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 70px;
+}
+#Song_Jae_Rim p{
+  background-color: #D9D9D9;
+  border:#201F26 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+#Yoo_Sun p{
+  background-color: #625F63;
+  border:#260C06 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+#Yoo_Seung_Ho p{
+  background-color: #BF935E;
+  border:#A6754B 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#Chae_Soo_Bin p{
+  background-color: #D9C196;
+  border:#A66C4B 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+#Uhm_Ki_Joon p{
+  background-color: #D7D7D9;
+  border:#253340 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#Hwang_Seung_Eon p{
+  background-color: #6F9ABF;
+  border:#241E26 1px solid;
+  width: 400px;
+  margin-left: 110px;
+  text-align: justify;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 120px;
+}
